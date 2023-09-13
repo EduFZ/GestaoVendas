@@ -13,3 +13,13 @@ a
 1src/main/java/br/com/vrsoftware/domain/Venda.java,3\5\35584e3c62a8810e480f995157dc94eaec5f1ad1
 a
 1src/main/java/br/com/vrsoftware/dto/VendaDto.java,a\a\aa3a63e46762b6e8d27a3f7264ce9882ebd92b25
+j
+:src/main/java/br/com/vrsoftware/dto/ConvertVendaToDto.java,b\1\b191a47ce4da156430f23de694c8139d3a3964e2
+c
+3src/main/java/br/com/vrsoftware/dao/ProdutoDAO.java,5\5\55914582e9677d0a76f032e1905256d50fed0738
+h
+8src/main/java/br/com/vrsoftware/GUI/CadastroProduto.form,f\4\f44589ce1eb692bce02618c2ed26e8d3c5bdd5e4
+h
+8src/main/java/br/com/vrsoftware/GUI/CadastroProduto.java,3\0\30fb7d8278f1273cc5a85f043cc9ea652af9f17d
+k
+;src/main/java/br/com/vrsoftware/service/ProdutoService.java,b\4\b4302bd05132c531c9e50740840d8a010ffb5a05

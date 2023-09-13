@@ -1,6 +1,7 @@
 package br.com.vrsoftware;
 
 import br.com.vrsoftware.GUI.CadastroProduto;
+import br.com.vrsoftware.config.DatabaseInitializer;
 import br.com.vrsoftware.dao.ProdutoDAO;
 import br.com.vrsoftware.service.ProdutoService;
 
@@ -11,6 +12,8 @@ public class GestaoVendas {
 
         ConnectionFactory connectionFactory = new ConnectionFactory();
         Connection connection = connectionFactory.newConnection();
+        DatabaseInitializer databaseInitializer = new DatabaseInitializer(connectionFactory);
+        databaseInitializer.initializeDatabase();
 
         ProdutoDAO produtoDAO = new ProdutoDAO(connection);
         ProdutoService produtoService = new ProdutoService(produtoDAO);
