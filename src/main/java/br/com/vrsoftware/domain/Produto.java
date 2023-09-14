@@ -1,5 +1,7 @@
 package br.com.vrsoftware.domain;
 
+import java.lang.String;
+
 public class Produto {
     private int id;
     private String descricao;
@@ -8,7 +10,7 @@ public class Produto {
 
     private int quantidade;
 
-    public Produto() {
+    public Produto(){
     }
 
     public Produto(int id, String descricao, Double preco, int quantidade) {

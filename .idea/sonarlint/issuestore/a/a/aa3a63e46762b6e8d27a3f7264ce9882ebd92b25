@@ -1,11 +1,12 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎûŒÀşÿÿÿÿ8ÌÌ¨1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎûŒÀşÿÿÿÿ8‚ÌÌ¨1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹œçºıÿÿÿÿ8¤ÆÌÌ¨1
-r	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±Íùÿÿÿÿ8¥ÆÌÌ¨1
-q	java:S116"URename this field "id_produto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ‡ô«8öòÓº¨1
-r	java:S116"VRename this field "valor_total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅğÆØ8öòÓº¨1
-i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Š‚\8°ÆÌÌ¨1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹œçºıÿÿÿÿ8²ÆÌÌ¨1
-o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÎ¶ˆúÿÿÿÿ8¶ÆÌÌ¨1
-o	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±Íùÿÿÿÿ8·ÆÌÌ¨1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í×„—8Ş·Š©1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹œçºıÿÿÿÿ8Ş·Š©1
+r	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±Íùÿÿÿÿ8Ş·Š©1
+q	java:S116"URename this field "id_produto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ‡ô«8ã·Š©1
+r	java:S116"VRename this field "valor_total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅğÆØ8ã·Š©1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Š‚\8ä·Š©1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹œçºıÿÿÿÿ8å·Š©1
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÎ¶ˆúÿÿÿÿ8ç·Š©1
+o	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±Íùÿÿÿÿ8ç·Š©1
+Z
+java:S1128"=Remove this unused import 'br.com.vrsoftware.domain.Produto'.(èÍéç8ä€‹©1

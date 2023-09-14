@@ -14,11 +14,11 @@ public class VendaDto {
     public VendaDto() {
     }
 
-    public VendaDto(int id_produto, int quantidade, Double preco, Double valor_total) {
+    public VendaDto(int id_produto, int quantidade, Double preco) {
         this.id_produto = id_produto;
         this.quantidade = quantidade;
         this.preco = preco;
-        this.valor_total = valor_total;
+        this.valor_total = quantidade * preco;
     }
 
     public int getId_produto() {

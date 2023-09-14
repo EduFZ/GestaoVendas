@@ -21,7 +21,7 @@ public class ProdutoDAO {
 
         try {
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
-            preparedStatement.setString(1, produto.getDescricao());
+            preparedStatement.setString(1, String.valueOf(produto.getDescricao()));
             preparedStatement.setDouble(2, produto.getPreco());
             preparedStatement.setInt(3, produto.getQuantidade());
 

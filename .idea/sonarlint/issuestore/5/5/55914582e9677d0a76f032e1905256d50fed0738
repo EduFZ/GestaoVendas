@@ -1,2 +1,4 @@
 
 g	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8¶ΉΡ¨1
+b
+java:S1128"@Remove this unused import 'br.com.vrsoftware.ConnectionFactory'.(Ξ¨ƒ©ωÿÿÿÿ8ύ¥ύ¨1

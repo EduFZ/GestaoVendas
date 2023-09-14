@@ -10,8 +10,7 @@ public class ConvertVendaToDto {
         vendaDto.setId_produto(produto.getId());
         vendaDto.setQuantidade(produto.getQuantidade());
         vendaDto.setPreco(produto.getPreco());
-        Venda venda = new Venda();
-        vendaDto.setValor_total(venda.getValor_total());
+        vendaDto.setValor_total(vendaDto.valorTotal(produto.getQuantidade(), produto.getPreco()));
 
         return vendaDto;
     }

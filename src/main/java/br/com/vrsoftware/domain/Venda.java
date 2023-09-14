@@ -1,6 +1,11 @@
 package br.com.vrsoftware.domain;
 
+import br.com.vrsoftware.dto.VendaDto;
+
+import java.lang.String;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Venda {
 
@@ -8,16 +13,18 @@ public class Venda {
 
     private LocalDate data;
 
-    private Cliente cliente;
+    private String cliente;
 
     private Double valor_total;
 
     private String status;
 
+    private List<VendaDto> itens = new ArrayList<>();
+
     public Venda() {
     }
 
-    public Venda(int id, LocalDate data, Cliente cliente, Double valor_total, String status) {
+    public Venda(int id, LocalDate data, String cliente, Double valor_total, String status) {
         this.id = id;
         this.data = data;
         this.cliente = cliente;
@@ -41,11 +48,11 @@ public class Venda {
         this.data = data;
     }
 
-    public Cliente getCliente() {
+    public String getCliente() {
         return cliente;
     }
 
-    public void setCliente(Cliente cliente) {
+    public void setCliente(String cliente) {
         this.cliente = cliente;
     }
 
@@ -63,6 +70,14 @@ public class Venda {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public List<VendaDto> getItens() {
+        return itens;
+    }
+
+    public void setItens(List<VendaDto> itens) {
+        this.itens = itens;
     }
 
 }

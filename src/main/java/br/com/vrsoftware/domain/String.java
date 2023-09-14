@@ -1,13 +1,13 @@
 package br.com.vrsoftware.domain;
 
-public class Cliente {
+public class String {
     private int id;
-    private String nome;
+    private java.lang.String nome;
 
-    public Cliente() {
+    public String() {
     }
 
-    public Cliente(int id, String nome) {
+    public String(int id, java.lang.String nome) {
         this.id = id;
         this.nome = nome;
     }
@@ -20,11 +20,11 @@ public class Cliente {
         this.id = id;
     }
 
-    public String getNome() {
+    public java.lang.String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(java.lang.String nome) {
         this.nome = nome;
     }
 }
