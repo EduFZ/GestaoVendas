@@ -1,8 +1,17 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÄûıÿÿÿÿ8Ş‹‹©1
-r	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±Íùÿÿÿÿ8Ş‹‹©1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÎ®ÿÿÿÿÿ8â„Ô©1
+m	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Î©“8â„Ô©1
 s
-java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôİÕıÿÿÿÿ8â‹‹©1
-r	java:S116"VRename this field "valor_total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅğÆØ8â‹‹©1
-o	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÎ¶ˆúÿÿÿÿ8ó‹‹©1
-o	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±Íùÿÿÿÿ8ó‹‹©1
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôİÕıÿÿÿÿ8ê„Ô©1
+r	java:S116"VRename this field "valor_total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Áşõ8ê„Ô©1
+o	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Å»øÿÿÿÿ8ğ„Ô©1
+j	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Î©“8ğ„Ô©1
+C
+java:S2111c"!Use "BigDecimal.valueOf" instead.(†ûá„ıÿÿÿÿ8ò„Ô©1
+C
+java:S2111d"!Use "BigDecimal.valueOf" instead.(É†Òşÿÿÿÿ8ó„Ô©1
+`
+java:S1612m">Replace this lambda with method reference 'Produto::getPreco'.(„³Ò¨ıÿÿÿÿ8õ„Ô©1
+G	java:S106s"+Replace this use of System.out by a logger.(¸ş­8ö„Ô©1
+]
+java:S1128";Remove this unused import 'br.com.vrsoftware.dto.VendaDto'.(Êê•œüÿÿÿÿ8•¡Ş©1

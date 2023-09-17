@@ -1,4 +1,10 @@
 
-g	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8¶ΉΡ¨1
+g	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΰ„λή©1
+Y
+java:S1854'"7Remove this useless assignment to local variable "sql".(ΣΏ“ϊÿÿÿÿ8„ρλή©1
+K
+java:S1172&".Remove this unused method parameter "produto".(ΰ–ΨΓ8„ρλή©1
+J
+java:S1481'"(Remove this unused "sql" local variable.(ΣΏ“ϊÿÿÿÿ8†ρλή©1
 b
-java:S1128"@Remove this unused import 'br.com.vrsoftware.ConnectionFactory'.(Ξ¨ƒ©ωÿÿÿÿ8ύ¥ύ¨1
+java:S1128"@Remove this unused import 'br.com.vrsoftware.ConnectionFactory'.(Ξ¨ƒ©ωÿÿÿÿ8…λή©1

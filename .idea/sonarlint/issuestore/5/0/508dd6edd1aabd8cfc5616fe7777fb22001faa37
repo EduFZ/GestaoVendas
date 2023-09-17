@@ -1,0 +1,12 @@
+
+m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àäÃ÷8·Ê”Ô©1
+m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àäÃ÷8¸Ê”Ô©1
+m	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Î©“8¸Ê”Ô©1
+r	java:S116"VRename this field "valor_total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Áşõ8ÀÊ”Ô©1
+u	java:S116"YRename this field "lista_produtos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÔ8ÀÊ”Ô©1
+o	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Å»øÿÿÿÿ8ÈÊ”Ô©1
+j	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Î©“8ÈÊ”Ô©1
+j	java:S100b"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÓ’ş8ÊÊ”Ô©1
+e
+java:S1612u"CReplace this lambda with method reference 'Produto::getQuantidade'.(”ºÇÉûÿÿÿÿ8Û£Ş©1
+L	java:S106y"+Replace this use of System.out by a logger.(êÉ®ÿÿÿÿÿ8ÏÊ”Ô©1

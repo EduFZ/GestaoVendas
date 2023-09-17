@@ -1,6 +1,6 @@
 package br.com.vrsoftware.GUI;
 
-import br.com.vrsoftware.domain.String;
+import br.com.vrsoftware.domain.Cliente;
 import br.com.vrsoftware.service.ClienteService;
 
 import javax.swing.*;
@@ -52,7 +52,7 @@ public class CadastroCliente extends JFrame {
     private void cadastrarCliente() {
         java.lang.String nome = nomeTextField.getText();
 
-        String cliente = new String(0, nome);
+        Cliente cliente = new Cliente(nome);
         clienteService.saveCliente(cliente);
 
         JOptionPane.showMessageDialog(this, "Cliente cadastrado com sucesso!");

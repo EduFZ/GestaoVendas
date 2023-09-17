@@ -25,8 +25,6 @@ o
 ?src/main/java/br/com/vrsoftware/config/DatabaseInitializer.java,7\7\77f80e65cfa281701dee29695206b2ecdf9ce4e3
 k
 ;src/main/java/br/com/vrsoftware/service/ClienteService.java,9\3\9345ae1be7e2a90a24e743322b7a6f26439e3a08
-b
-2src/main/java/br/com/vrsoftware/domain/String.java,d\4\d4bdef3b077fd6d095b06a952d0d7f9ec68b78a8
 h
 8src/main/java/br/com/vrsoftware/GUI/CadastroCliente.form,a\a\aad184e90ddce408f9352c2ec8da4e5e2924c730
 h
@@ -41,3 +39,7 @@ f
 6src/main/java/br/com/vrsoftware/GUI/CadastroVenda.java,f\1\f1c689473f1539e4cf8a303a41aed8e5bfde9b7f
 i
 9src/main/java/br/com/vrsoftware/service/VendaService.java,0\d\0d94a6a8ffd6161270ca2d048bfb4689f7b0d98b
+c
+3src/main/java/br/com/vrsoftware/domain/Cliente.java,4\2\42930ef4bfa21d23a49255a1b9ea444a99b38ca1
+f
+6src/main/java/br/com/vrsoftware/domain/VendaTeste.java,5\0\508dd6edd1aabd8cfc5616fe7777fb22001faa37

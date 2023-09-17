@@ -1,0 +1,8 @@
+
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¡Øç8ò†¨Ô©1
+X	java:S125"<This block of commented-out lines of code should be removed.(ëÇë8ô†¨Ô©1
+Z
+java:S1128"=Remove this unused import 'br.com.vrsoftware.domain.Produto'.(èÍéç8õ†¨Ô©1
+]
+java:S1128";Remove this unused import 'br.com.vrsoftware.domain.Venda'.(‚î¿˜ÿÿÿÿÿ8õ†¨Ô©1

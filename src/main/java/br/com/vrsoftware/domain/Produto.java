@@ -1,30 +1,41 @@
 package br.com.vrsoftware.domain;
 
 import java.lang.String;
+import java.math.BigDecimal;
 
 public class Produto {
-    private int id;
+    private Long id;
     private String descricao;
 
-    private Double preco;
+    private BigDecimal preco;
 
-    private int quantidade;
+    private Integer quantidade;
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "id=" + id +
+                ", descricao='" + descricao + '\'' +
+                ", preco=" + preco +
+                ", quantidade=" + quantidade +
+                '}';
+    }
 
     public Produto(){
     }
 
-    public Produto(int id, String descricao, Double preco, int quantidade) {
+    public Produto(Long id, String descricao, BigDecimal preco, Integer quantidade) {
         this.id = id;
         this.descricao = descricao;
         this.preco = preco;
         this.quantidade = quantidade;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -36,19 +47,19 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public Double getPreco() {
+    public BigDecimal getPreco() {
         return preco;
     }
 
-    public void setPreco(Double preco) {
+    public void setPreco(BigDecimal preco) {
         this.preco = preco;
     }
 
-    public int getQuantidade() {
+    public Integer getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
 }

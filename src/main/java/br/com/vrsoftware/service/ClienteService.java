@@ -2,7 +2,7 @@ package br.com.vrsoftware.service;
 
 import br.com.vrsoftware.ConnectionFactory;
 import br.com.vrsoftware.dao.ClienteDAO;
-import br.com.vrsoftware.domain.String;
+import br.com.vrsoftware.domain.Cliente;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -18,7 +18,7 @@ public class ClienteService {
         this.connectionFactory = new ConnectionFactory();
     }
 
-    public void saveCliente(String cliente){
+    public void saveCliente(Cliente cliente){
         try(Connection connection = connectionFactory.newConnection()) {
             clienteDAO.saveCliente(cliente);
         }catch (SQLException e){

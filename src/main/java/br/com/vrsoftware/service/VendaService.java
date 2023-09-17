@@ -10,6 +10,7 @@ import br.com.vrsoftware.dto.VendaDto;
 
 import java.sql.Connection;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class VendaService {
@@ -25,31 +26,14 @@ public class VendaService {
         this.connectionFactory = new ConnectionFactory();
     }
 
-    public void saveVenda(VendaDto venda) {
-
-        //Criar logica para integrar VendaDto em Venda
-        venda.setId_produto(produto.getId());
-        venda.setQuantidade(venda.getQuantidade());
-        venda.setPreco(produto.getPreco());
-        venda.setValor_total(venda.getValor_total());
-
-        Venda vendas = new Venda();
-        vendas.setItens((List<VendaDto>) venda);
-        vendas.setData(LocalDate.now());
-        vendas.setCliente(vendas.getCliente());
-        vendas.setStatus("Digitando");
-
+    public void saveVenda(Venda novaVenda) {
 
         try (Connection connection = connectionFactory.newConnection()) {
-            vendaDAO.saveVenda(venda);
+            vendaDAO.saveVenda(novaVenda);
         }catch (Exception e){
             e.printStackTrace();
         }
     }
 
-    public VendaDto adicionarItem( int id_produto, int quantidade, Double preco){
-        VendaDto item = new VendaDto(id_produto, quantidade, preco);
-        return item;
-    }
 
 }

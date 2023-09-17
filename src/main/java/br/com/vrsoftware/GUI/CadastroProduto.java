@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.math.BigDecimal;
 
 public class CadastroProduto extends JFrame {
 
@@ -63,10 +64,10 @@ public class CadastroProduto extends JFrame {
 
     private void cadastrarProduto() {
         String descricao = descricaoTextField.getText();
-        Double preco = Double.parseDouble(precoTextField.getText());
+        BigDecimal preco = BigDecimal.valueOf(Long.parseLong(precoTextField.getText()));
         int quantidade = Integer.parseInt(quantidadeTextField.getText());
 
-        Produto produto = new Produto(0, descricao, preco, quantidade);
+        Produto produto = new Produto(0L, descricao, preco, quantidade);
         produtoService.saveProduto(produto);
 
         JOptionPane.showMessageDialog(this, "Produto cadastrado com sucesso!");

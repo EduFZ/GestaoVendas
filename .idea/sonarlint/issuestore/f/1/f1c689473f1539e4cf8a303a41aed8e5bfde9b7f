@@ -1,37 +1,8 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šİ±ç
-{
-java:S1450"^Remove the "cadastrarButton" field and declare it as a local variable in the relevant methods.(Ç§î8×—ï‰©1
-}
-java:S1450"aRemove the "idProdutoTextField" field and declare it as a local variable in the relevant methods.(”¹ˆ	8Ù€ü‰©1
-
-java:S1450"]Remove the "precoTextField" field and declare it as a local variable in the relevant methods.(À’Ãüÿÿÿÿ8íêş‰©1
-„
-java:S1450"bRemove the "quantidadeTextField" field and declare it as a local variable in the relevant methods.(¨×î¹ùÿÿÿÿ8™¸ı‰©1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šİ±ç8¦¨¹Ô©1
+]	java:S125
+"<This block of commented-out lines of code should be removed.(Ô¸§Äúÿÿÿÿ8ª¨¹Ô©1
 e
-java:S1854%"CRemove this useless assignment to local variable "valorTotalLabel".(€ããûÿÿÿÿ8Û—ï‰©1
-]
-java:S1854""@Remove this useless assignment to local variable "clienteLabel".(‘¾Ğ®8Û—ï‰©1
-_
-java:S1854"=Remove this useless assignment to local variable "dataLabel".(ô•Œ¿şÿÿÿÿ8Û—ï‰©1
-k
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8Âªí‰©1
-P
-java:S1481".Remove this unused "dataLabel" local variable.(ô•Œ¿şÿÿÿÿ8»úï‰©1
-N
-java:S1481""1Remove this unused "clienteLabel" local variable.(‘¾Ğ®8š‰ñ‰©1
-V
-java:S1481%"4Remove this unused "valorTotalLabel" local variable.(€ããûÿÿÿÿ8³äò‰©1
-M
-java:S1068
-"0Remove this unused "vendaService" private field.(Ó¸¨ß8ûÎá‰©1
-R
-java:S1068"6Remove this unused "idProdutoTextField" private field.(”¹ˆ	8Ş€ü‰©1
-Y
-java:S1068"7Remove this unused "quantidadeTextField" private field.(¨×î¹ùÿÿÿÿ8 ¸ı‰©1
-T
-java:S1068"2Remove this unused "precoTextField" private field.(À’Ãüÿÿÿÿ8÷êş‰©1
-P
-java:S1068"3Remove this unused "statusTextField" private field.(À ãğ8¡Éé‰©1
-P
-java:S1068"3Remove this unused "cadastrarButton" private field.(Ç§î8™åâ‰©1
+java:S1128"CRemove this unused import 'br.com.vrsoftware.service.VendaService'.(ÍîÎƒşÿÿÿÿ8Ê¡Ş©1
+B
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8Ê¡Ş©1

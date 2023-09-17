@@ -73,6 +73,18 @@ public class DatabaseInitializer {
                     ")";
             statement.execute(createTableVendaSQL);
 
+            String createTableVendaItensSQL = "CREATE TABLE IF NOT EXISTS venda_item (" +
+                    "id SERIAL PRIMARY KEY, " +
+                    "venda_id BIGINT, " +
+                    "produto_id BIGINT, " +
+                    "quantidade INT, " +
+                    "FOREIGN KEY (venda_id) REFERENCES venda(id), " +
+                    "FOREIGN KEY (produto_id) REFERENCES produto(id)" +
+                    ") ";
+            statement.execute(createTableVendaItensSQL);
+
+            statement.close();
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

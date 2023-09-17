@@ -1,4 +1,15 @@
 
-m	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üğÑÓ8«ÕŠŒ©1
-y
-java:S14883"\Immediately return this expression instead of assigning it to the temporary variable "item".(şØÂš8«ÕŠŒ©1
+]	java:S125!"<This block of commented-out lines of code should be removed.(‚“©öøÿÿÿÿ8ÛİŞ©1
+]	java:S125."<This block of commented-out lines of code should be removed.(‰°Û¹ÿÿÿÿÿ8‘ÛİŞ©1
+Z
+java:S1128"=Remove this unused import 'br.com.vrsoftware.dao.ProdutoDAO'.(«‰çŒ8áøæŞ©1
+f
+java:S1128"DRemove this unused import 'br.com.vrsoftware.dto.ConvertVendaToDto'.(³ÓÔ„ıÿÿÿÿ8áøæŞ©1
+]
+java:S1128	";Remove this unused import 'br.com.vrsoftware.dto.VendaDto'.(Êê•œüÿÿÿÿ8âøæŞ©1
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8âøæŞ©1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8âøæŞ©1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8âøæŞ©1

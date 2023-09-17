@@ -1,6 +1,6 @@
 package br.com.vrsoftware.dao;
 
-import br.com.vrsoftware.domain.String;
+import br.com.vrsoftware.domain.Cliente;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,7 +14,7 @@ public class ClienteDAO {
         this.conn = connection;
     }
 
-    public void saveCliente(String cliente){
+    public void saveCliente(Cliente cliente){
 
         java.lang.String sql = "INSERT INTO cliente (nome) VALUES (?)";
 
